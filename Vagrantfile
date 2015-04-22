@@ -23,6 +23,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = ["cookbooks"]
     chef.roles_path = ["roles"]
+    chef.add_role "postgres_attr"
     chef.add_recipe 'postgres::default'
     
   end
