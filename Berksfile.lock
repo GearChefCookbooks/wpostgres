@@ -1,0 +1,37 @@
+{
+  "sources": {
+    "wpostgres": {
+      "path": "."
+    },
+    "postgresql": {
+      "locked_version": "3.3.4"
+    },
+    "postgres": {
+      "locked_version": "2.11.0"
+    },
+    "ipaddr_extensions": {
+      "locked_version": "0.3.0"
+    },
+    "paths": {
+      "locked_version": "0.3.0"
+    },
+    "rbac": {
+      "locked_version": "1.0.3"
+    },
+    "resource-control": {
+      "locked_version": "0.1.1"
+    },
+    "smf": {
+      "locked_version": "2.2.6"
+    },
+    "apt": {
+      "locked_version": "2.4.0"
+    },
+    "build-essential": {
+      "locked_version": "2.0.4"
+    },
+    "openssl": {
+      "locked_version": "1.1.0"
+    }
+  }
+}
